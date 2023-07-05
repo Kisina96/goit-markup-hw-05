@@ -831,10 +831,14 @@ input {
   line-height: 1.17;
   letter-spacing: 0.48px;
   display: block;
-  margin-bottom: 16px;
+  margin-bottom: 4px;
 }
 .modal-form-label {
 }
+.modal-form-div-text {
+  margin-bottom: 16px;
+}
+
 .div-modal {
   position: relative;
 }
