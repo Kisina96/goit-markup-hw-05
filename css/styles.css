@@ -990,13 +990,16 @@ input {
 .modal-checbox-clic:hover {
   background-color: var(--primary-ocean-color);
 }
-.user-checbox:checked + .modal-checbox-clic {
+.user-checbox:checked + .modal-checbox-clic .modal-checbox-text {
   background-color: var(--primary-ocean-color);
   border: none;
   fill: var(--primary-cloud-color);
 }
 .policy-link {
   color: var(--primary-iris-color);
+}
+.modal-checbox-div {
+  margin-bottom: 24px;
 }
 .button-send {
   display: block;
