@@ -639,7 +639,7 @@ input {
 .social-network-fo {
   display: flex;
   gap: 16px;
-  margin-top: 8px;
+
   justify-content: center;
 }
 .social-li {
