@@ -816,6 +816,9 @@ input {
   letter-spacing: 0.32px;
   margin-bottom: 16px;
 }
+.modal-form-div {
+  margin-bottom: 8px;
+}
 .modal-form-field {
   display: block;
   margin-bottom: 8px;
