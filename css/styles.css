@@ -666,7 +666,7 @@ input {
 }
 .network {
   fill: var(--primary-cloud-color);
-  margin-left: 16px;
+  margin-left: 8px 8px;
 }
 .social-to {
   font-size: 16px;
@@ -982,6 +982,21 @@ input {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  fill: transparent;
+}
+.modal-checbox-clic:hover {
+  background-color: var(--primary-ocean-color);
+}
+.user-checbox:checked + .modal-checbox-clic {
+  background-color: var(--primary-ocean-color);
+  border: none;
+  fill: var(--primary-cloud-color);
+}
+.policy-link {
+  color: var(--primary-iris-color);
 }
 .modal-checbox-clic:hover {
   background-color: var(--primary-ocean-color);
@@ -991,6 +1006,7 @@ input {
   border: none;
   fill: var(--primary-cloud-color);
 }
+
 .policy-link {
   color: var(--primary-iris-color);
 }
