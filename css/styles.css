@@ -668,6 +668,11 @@ input {
   fill: var(--primary-cloud-color);
   margin-left: 8px 8px;
 }
+.network-one {
+  fill: var(--primary-cloud-color);
+  margin-left: 16px;
+  margin: 8px 8px;
+}
 .social-to {
   font-size: 16px;
   font-weight: 500;
