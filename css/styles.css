@@ -1003,9 +1003,9 @@ input {
   background-color: var(--primary-ocean-color);
 }
 .user-checbox:checked + .user-privacy .modal-checbox-clic {
-  background-color: var(--primary-ocean-color);
   border: none;
   fill: var(--primary-cloud-color);
+  background-color: var(--primary-ocean-color);
 }
 
 .policy-link {
