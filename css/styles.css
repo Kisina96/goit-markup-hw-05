@@ -1002,7 +1002,7 @@ input {
 .modal-checbox-clic:hover {
   background-color: var(--primary-ocean-color);
 }
-.user-checbox:checked + .user-privacy .modal-checbox-clic {
+.user-checbox:checked + .modal-checbox-text .modal-checbox-clic {
   border: none;
   fill: var(--primary-cloud-color);
   background-color: var(--primary-ocean-color);
